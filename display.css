@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@450);
+*{
+    margin: 0;
+    padding :0;
+    box-sizing: border-box;
+}
+body
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(to right, #b2bec3 0%, #636e72 100%);
+  }
+body .container
+{
+    max-width: 700px;
+    width: 100%;
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  }
